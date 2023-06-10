@@ -1,0 +1,78 @@
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 150px;
+}
+
+.button {
+  background-color: #606C5D;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+.btnn{
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.col-25 {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+}
+
+.col-50 {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+}
+.col-75 {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+}
+
+.container {
+  background-color: #B0A4A4;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+body{
+  background-color: #957777;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

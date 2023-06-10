@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: black;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: #1f1f1f;
+  font-weight: bolder;
+}
+p{
+  color: #3F4E4F;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+/*Features*/
+.features{
+  text-align: center;
+  padding: 5%;
+}
+#features{
+  padding: 4% 9%;
+}
+.icon{
+  color: #B0A4A4;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #957777;
+}
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #B0A4A4;
+}
+
+.name{
+    color: #ffff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+  background-color: #B0A4A4;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+.info{
+  font-family: 'Montserrat', sans-serif;
+  color: #3F4E4F;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+@media (max-width: 995px)
+{
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+#footer{
+    padding: 4% 9%;
+    text-align: center;
+}
+.icons{
+  margin: 20px 10px;
+}
+#title
+{
+  background-color: #957777;
+  color: #ffff;
+}
+#my{
+  margin-left: 70px;
+}
+.mail{
+  color: black;
+  padding-left: 20px;
+}
+.insta{
+  color: black;
+  padding-right: 20px;
+}
+.call{
+  color: black;
+}
+.img1{
+  width: 300px;
+  padding-top: 30px;
+}
+.img2{
+  width: 350px;
+  padding-top: 30px;
+}
+.img3{
+  width: 350px;
+  padding-top: 30px;
+}
